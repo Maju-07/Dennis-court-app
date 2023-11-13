@@ -1,0 +1,79 @@
+.scroll {
+    transform: translateX(20%);
+    animation: my-animation 13s linear 0s infinite;
+}
+
+.scroll2 {
+    transform: translateX(-20%);
+    animation: my-animation2 13s linear  infinite;
+}
+
+.scroll3 {
+    transform: translateX(40px);
+    animation: my-animation3 15s linear 0s infinite;
+
+}
+
+.scroll4 {
+    transform: translateX(-55%);
+    animation: my-animation4 15s linear  infinite;
+
+}
+
+
+
+@keyframes my-animation {
+    0% {
+        
+        transform: translateX(20%);
+    } 
+    50% {
+        transform: translateX(-20%);
+    }
+    100%{
+        transform: translateX(20%);
+    }
+}
+
+
+
+@keyframes my-animation2 {
+    0% {
+        
+        transform: translateX(-20%);
+    }
+    50%{
+        transform: translateX(20%);
+    }
+    
+    100%{
+        transform: translateX(-20%);
+    }
+}
+
+@keyframes my-animation3 {
+    0%{
+        transform: translateX(40px);
+    }
+    50%{
+        transform: translateX(-55%);
+    }
+    100%{
+        transform: translateX(40px);
+    }
+    
+}
+
+@keyframes my-animation4 {
+    0%{
+        transform: translateX(-55%);
+    }
+    50%{
+        transform: translateX(40px);
+    }
+    100%{
+        transform: translateX(-55%);
+    }
+    
+}
+
